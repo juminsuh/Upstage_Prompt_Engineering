@@ -1,2 +1,15 @@
 # Upstage_Prompt_Engineering
-25-2 Mixup Datathon
+25-2 Mixup Datathon (2025.11.22~23)
+---
+![Image](https://github.com/user-attachments/assets/8b9ab16f-9222-4a7b-b1f8-d913fa45fbb5)
+![Image](https://github.com/user-attachments/assets/11399881-7547-4e06-abce-c7c21f356847)
+![Image](https://github.com/user-attachments/assets/4353fc87-7dad-4018-94b8-40455cf1969c)
+![Image](https://github.com/user-attachments/assets/a4cb60f7-9208-491d-8b96-5dc0efb15cae)
+![Image](https://github.com/user-attachments/assets/b0244334-c446-4837-a47f-d383676beae6)
+![Image](https://github.com/user-attachments/assets/85cd11ff-d558-4ad8-b46a-f53676adfd0c)
+![Image](https://github.com/user-attachments/assets/9945de45-e380-4909-ac67-6b9cff3c2774)
+![Image](https://github.com/user-attachments/assets/9cce3cdd-8167-4833-83bc-4aaf3075c496)
+![Image](https://github.com/user-attachments/assets/46973f82-3982-4ad4-9ec7-8e04a152cafa)
+![Image](https://github.com/user-attachments/assets/4ac9d64d-b649-48d5-a112-87c3c657d855)
+![Image](https://github.com/user-attachments/assets/ae5b8d2b-6191-4eca-b092-eae7d3c9abbf)
+![Image](https://github.com/user-attachments/assets/a9953c65-36b7-4c18-aa8d-5337d4d30d07)
