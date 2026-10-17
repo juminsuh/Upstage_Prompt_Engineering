@@ -1,15 +1,49 @@
-# Upstage_Prompt_Engineering
-25-2 Mixup Datathon (2025.11.22~23)
----
-![Image](https://github.com/user-attachments/assets/8b9ab16f-9222-4a7b-b1f8-d913fa45fbb5)
-![Image](https://github.com/user-attachments/assets/11399881-7547-4e06-abce-c7c21f356847)
-![Image](https://github.com/user-attachments/assets/4353fc87-7dad-4018-94b8-40455cf1969c)
-![Image](https://github.com/user-attachments/assets/a4cb60f7-9208-491d-8b96-5dc0efb15cae)
-![Image](https://github.com/user-attachments/assets/b0244334-c446-4837-a47f-d383676beae6)
-![Image](https://github.com/user-attachments/assets/85cd11ff-d558-4ad8-b46a-f53676adfd0c)
-![Image](https://github.com/user-attachments/assets/9945de45-e380-4909-ac67-6b9cff3c2774)
-![Image](https://github.com/user-attachments/assets/9cce3cdd-8167-4833-83bc-4aaf3075c496)
-![Image](https://github.com/user-attachments/assets/46973f82-3982-4ad4-9ec7-8e04a152cafa)
-![Image](https://github.com/user-attachments/assets/4ac9d64d-b649-48d5-a112-87c3c657d855)
-![Image](https://github.com/user-attachments/assets/ae5b8d2b-6191-4eca-b092-eae7d3c9abbf)
-![Image](https://github.com/user-attachments/assets/a9953c65-36b7-4c18-aa8d-5337d4d30d07)
+## Language Modernization — MIXUP Prompathon 2025
+
+**2025 MIXUP Datathon | Language Modernization Track | 3rd Place 🥉**
+
+### 1. Introduction
+
+This project develops a structured prompt-engineering approach to transform mixed Korean, Classical Chinese characters (Hanja), and English expressions into fluent modern Korean while preserving the original meaning.
+
+Rather than relying on direct, single-step rewriting, we designed a **task-decomposed, single-turn prompting pipeline** that combines semantic segmentation, glossary-guided conversion, draft generation, and self-refinement.
+
+### 2. Key Features
+
+1. **Semantic Segmentation:** Divides complex source text into meaningful units to reduce contextual ambiguity and support accurate rewriting.
+2. **Glossary-Guided Language Conversion:** Uses explicit transliteration rules for English expressions and a Hanja interpretation structure connecting characters, pronunciation, meaning, and modern Korean equivalents.
+3. **Structured Draft Generation:** Reassembles processed segments into coherent sentences and applies an expert-writing instruction to improve readability and grammatical fluency.
+4. **Self-Reflection and Refinement:** Introduces a dedicated review stage to check semantic preservation and grammatical correctness.
+5. **XML-Tagged Single-Turn Prompting:** Organizes analysis, drafting, and reflection within a single API request using explicit XML-style stage delimiters.
+
+### 3. System Architecture
+
+![Image](./image.png)
+
+### 4. Results
+
+#### Experimental Findings
+
+| Experiment | Reported Score |
+|---|---:|
+| Initial baseline | 0.6820 |
+| Few-shot prompting with low-scoring examples | 0.5360 |
+| Multi-turn approach evaluated during optimization | 0.4360 |
+
+Adding few-shot examples did not improve performance. This finding motivated a shift toward decomposing the modernization task into explicit stages rather than increasing the number of examples.
+
+The team ultimately prioritized a structured single-turn approach to reduce repeated API calls while retaining analysis, drafting, and reflection within one prompt.
+
+#### Competition Achievement
+
+**3rd Place — 2025 MIXUP Datathon**
+
+The project presentation's leaderboard shows the team's final overall score as approximately **0.7760**.
+
+
+### 5. My Contributions
+
+**Minsuh Joo: Prompt Optimization**
+
+- **Prompt Optimization:** Collaborated on refining the prompt architecture to improve the stability and consistency of generated modern Korean text.
+- **Output Reliability:** Contributed to optimizing the final prompting strategy, focusing on reproducible execution and consistent outputs.
